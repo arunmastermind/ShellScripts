@@ -3,7 +3,6 @@
 # A simple shell script to use as a pomodoro app.
 # The first argument is the focus time length.
 # The second argument is the break length.
-# Made by Kiailandi (https://github.com/kiailandi)
 
 wseconds=${1:-25}*60
 pseconds=${2:-wseconds/300}*60
